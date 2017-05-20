@@ -202,7 +202,7 @@ def error_hdler(bot, upd, err):
 
 
 def main():
-    upd = Updater(TOKEN)
+    upd = Updater(TELEGRAM_TOKEN)
 
     dp = upd.dispatcher
     dp.add_handler(CommandHandler('start', cmd_start))
