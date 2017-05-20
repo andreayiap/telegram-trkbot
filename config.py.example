@@ -1,0 +1,7 @@
+TELEGRAM_TOKEN = '<Put here the token given by BotFather>'
+AUTH_USERS = [1234] # Authorized user id
+
+QUESTION = 'How are you?'
+OPTIONS = [':satisfied:', ':relaxed:', ':expressionless:', ':confused:', ':cry:']
+
+DB_PATH = 'storage.sqlite'
